@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-28T19:43:44 IST" name="Default suite" finished-at="2025-02-28T19:43:45 IST" duration-ms="455">
+    <groups>
+      <group name="smoke">
+        <method signature="Sampletest.samplemethod()[pri:0, instance:Testngpackage.Sampletest@7e07db1f]" name="samplemethod" class="Testngpackage.Sampletest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-02-28T19:43:44 IST" name="Default test" finished-at="2025-02-28T19:43:45 IST" duration-ms="455">
+      <class name="Testngpackage.Sampletest">
+        <test-method signature="Dependencymethod()[pri:0, instance:Testngpackage.Sampletest@7e07db1f]" started-at="2025-02-28T19:43:44 IST" name="Dependencymethod" finished-at="2025-02-28T19:43:44 IST" duration-ms="63" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+sample cannot be resolved to a variable
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+sample cannot be resolved to a variable
+
+at Testngpackage.Sampletest.Dependencymethod(Sampletest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dependencymethod -->
+        <test-method signature="samplemethod()[pri:0, instance:Testngpackage.Sampletest@7e07db1f]" started-at="2025-02-28T19:43:44 IST" name="samplemethod" finished-at="2025-02-28T19:43:44 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod -->
+        <test-method signature="samplemethod()[pri:0, instance:Testngpackage.Sampletest@7e07db1f]" started-at="2025-02-28T19:43:44 IST" name="samplemethod" finished-at="2025-02-28T19:43:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod -->
+        <test-method signature="samplemethod()[pri:0, instance:Testngpackage.Sampletest@7e07db1f]" started-at="2025-02-28T19:43:44 IST" name="samplemethod" finished-at="2025-02-28T19:43:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod -->
+        <test-method signature="samplemethod()[pri:0, instance:Testngpackage.Sampletest@7e07db1f]" started-at="2025-02-28T19:43:44 IST" name="samplemethod" finished-at="2025-02-28T19:43:44 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod -->
+        <test-method signature="samplemethod()[pri:0, instance:Testngpackage.Sampletest@7e07db1f]" started-at="2025-02-28T19:43:44 IST" name="samplemethod" finished-at="2025-02-28T19:43:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod -->
+        <test-method signature="samplemethod2()[pri:0, instance:Testngpackage.Sampletest@7e07db1f]" started-at="2025-02-28T19:43:44 IST" name="samplemethod2" finished-at="2025-02-28T19:43:44 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod2 -->
+        <test-method signature="samplemethod1()[pri:2, instance:Testngpackage.Sampletest@7e07db1f]" started-at="2025-02-28T19:43:45 IST" name="samplemethod1" finished-at="2025-02-28T19:43:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod1 -->
+      </class> <!-- Testngpackage.Sampletest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
